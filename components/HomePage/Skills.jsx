@@ -5,9 +5,9 @@ import { motion } from "framer-motion"
 const skills = [
   'HTML', 'CSS', 'Bootstrap', 'Tailwind CSS', 'JavaScript',
   'TypeScript', 'React Native', 'React.js', 'Electron.js',
-  'Next.js', 'Vue.js', 'Node.js', 'Express.js', 'MongoDB',
-  'MySQL', 'Firebase', 'Python', 'PHP', 'C++',
-  'AI & Machine Learning', 'Git & GitHub',
+  'Next.js', 'Vue.js', 'Node.js', 'Express.js', 'Rest APIs',
+  'MongoDB','MySQL', 'Firebase', 'Python', 'PHP', 'C++',
+  'AI & Machine Learning', 'Git & GitHub', 'Windows', 'Linux',
 ]
 
 const container = {
