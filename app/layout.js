@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import CustomCursor from "@/components/CustomCursor";
+import { Analytics } from "@vercel/analytics/next"
 import "@/styles/globals.css";
 import "@/styles/responsive.css";
 
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body>
+        <Analytics />
         <CustomCursor />
         {children}
       </body>
