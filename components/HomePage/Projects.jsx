@@ -1,8 +1,9 @@
 "use client"
 
-import { motion } from "framer-motion"
-import { projects } from "@/data/projects"
-import Image from "next/image"
+import { motion } from "framer-motion";
+import { projects } from "@/data/projects";
+import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 const container = {
   hidden: {},
@@ -30,6 +31,7 @@ const item = {
 }
 
 const Projects = () => {
+  const router = useRouter();
   return (
     <section id="projects" className="py-32 px-6">
       <div className="max-w-7xl mx-auto">
@@ -61,6 +63,7 @@ const Projects = () => {
               key={index}
               variants={item}
               style={{ willChange: "transform, opacity" }}
+              onClick={() => (router.push(project.link))}
               whileHover={{
                 y: -6,
                 scale: 1.02,
