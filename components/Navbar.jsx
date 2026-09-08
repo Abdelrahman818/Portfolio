@@ -28,7 +28,7 @@ const Navbar = () => {
           <li><a href="#projects">Projects</a></li>
           <li><Link href="/Contact">Contact</Link></li>
         </ul>
-        <span className='absolute top-10 right-5 bg-blue-500 hover:bg-blue-600 hover:cursor-pointer transition-all duration-300 rounded-lg' style={{ padding: '5px 10px' }}><Link href="/Abdelrahman Ismaeel resume.pdf" download>Download Resume</Link></span>
+        <span className='absolute top-10 right-5 bg-blue-500 hover:bg-blue-600 hover:cursor-pointer transition-all duration-300 rounded-lg' style={{ padding: '5px 10px' }}><Link href="/Abdelrahman\ Ismaeel\ resume.pdf" download>Download Resume</Link></span>
       </div>
     </nav>
   )
